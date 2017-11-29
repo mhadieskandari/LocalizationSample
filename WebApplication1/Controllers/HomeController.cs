@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Models;
 using Microsoft.Extensions.Localization;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Http;
 
 namespace WebApplication1.Controllers
 {
@@ -20,6 +22,11 @@ namespace WebApplication1.Controllers
 
         public IActionResult Index()
         {
+            Response.Cookies.Append(
+                CookieRequestCultureProvider.DefaultCookieName,
+                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture("fa-IR")),
+                new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) });
+
             ViewBag.Hello = _localizer["Hello"];
             return View();
         }
