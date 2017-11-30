@@ -16,3 +16,7 @@ C:\Users\Hadi\Desktop\LocalizationSample\WebApplication1\bin\Debug\netcoreapp2.0
 C:\Users\Hadi\Desktop\LocalizationSample\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.Resources.Controllers.HomeController.fa-IR.resources
 C:\Users\Hadi\Desktop\LocalizationSample\WebApplication1\obj\Debug\netcoreapp2.0\fa-IR\WebApplication1.resources.dll
 C:\Users\Hadi\Desktop\LocalizationSample\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Hadi\Desktop\LocalizationSample\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.Resources.Models.SharedResource.en-US.resources
+C:\Users\Hadi\Desktop\LocalizationSample\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.Resources.Models.SharedResource.fa-IR.resources
+C:\Users\Hadi\Desktop\LocalizationSample\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.Resources.SharedResource.en-US.resources
+C:\Users\Hadi\Desktop\LocalizationSample\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.Resources.SharedResource.fa-IR.resources

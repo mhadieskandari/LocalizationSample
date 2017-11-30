@@ -13,10 +13,11 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IStringLocalizer<HomeController> _localizer;
+        //private readonly IStringLocalizer<HomeController> _localizer;
+        private readonly IStringLocalizer<SharedResource> _localizer;
 
-        public HomeController(IStringLocalizer<HomeController> localizer)
-        {
+        public HomeController(IStringLocalizer<SharedResource> localizer)
+        {    
             _localizer = localizer;
         }
 
